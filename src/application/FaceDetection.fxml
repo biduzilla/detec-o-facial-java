@@ -14,8 +14,8 @@
 				<padding>
 					<Insets top="10" bottom="10" />
 				</padding>
-				<CheckBox fx:id="haarClassifier" onAction="#haarSelected" text="Haar Classifier"/>
-				<CheckBox fx:id="lbpClassifier" onAction="#lbpSelected" text="LBP Classifier"/>
+				<CheckBox fx:id="haarClassifier" onAction="#haarSelected" text="Classificação Haar"/>
+				<CheckBox fx:id="lbpClassifier" onAction="#lbpSelected" text="Classificação LBP"/>
 			</HBox>
 			<Separator />
 		</VBox>
@@ -33,7 +33,7 @@
 			<padding>
 				<Insets top="25" right="25" bottom="25" left="25" />
 			</padding>
-			<Button fx:id="cameraButton" alignment="center" text="Start camera" onAction="#startCamera" disable="true" />
+			<Button fx:id="cameraButton" alignment="center" text="Abrir camera" onAction="#startCamera" disable="true" />
 		</HBox>
 	</bottom>
 </BorderPane>

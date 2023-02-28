@@ -20,7 +20,7 @@ public class Main extends Application {
 			root.setStyle("-fx-background-color: whitesmoke;");
 			Scene scene = new Scene(root, 800, 600);
 			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
-			primaryStage.setTitle("Face Detection and Tracking");
+			primaryStage.setTitle("Detecção Facial");
 			primaryStage.setScene(scene);
 			primaryStage.show();
 
