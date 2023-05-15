@@ -12,6 +12,11 @@ import javafx.scene.image.Image;
 
 public final class Utils {
 
+	static public void print(String msg) {
+		System.out.println("******************");
+		System.out.println(msg + "\n");
+	}
+
 	public static Image mat2Image(Mat frame) {
 		try {
 			return SwingFXUtils.toFXImage(matToBufferedImage(frame), null);
